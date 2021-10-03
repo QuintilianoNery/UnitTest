@@ -18,3 +18,14 @@ namespace Tests
         }
     }
 }
+
+
+
+
+//Padrão de nomenclatura de testes de unidade
+//objetoEmTeste_MetodoComportamentoEmTeste_ComportamentoEsperado
+//Estoque_RetirarItem_DeveEnviarEmailSeAbaixoDe10Unidades
+
+
+//MetodoEmTeste_EstadoEmTeste_ComportamentoEsperado
+//RetirarItemEstoque_EstoqueAbaixoDe10Unidades_DeveEnviarEmailDeAviso
