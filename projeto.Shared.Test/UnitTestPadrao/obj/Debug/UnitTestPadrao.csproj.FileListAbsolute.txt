@@ -17,3 +17,5 @@ C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\UnitTestPadrao\
 C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\UnitTestPadrao\obj\Debug\UnitTestPadrao.csproj.CopyComplete
 C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\UnitTestPadrao\obj\Debug\UnitTestPadrao.dll
 C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\UnitTestPadrao\obj\Debug\UnitTestPadrao.pdb
+C:\Users\quint\OneDrive\Documentos\Repositorios\UnitTest\projeto.Shared.Test\UnitTestPadrao\obj\Debug\UnitTestPadrao.csproj.AssemblyReference.cache
+C:\Users\quint\OneDrive\Documentos\Repositorios\UnitTest\projeto.Shared.Test\UnitTestPadrao\obj\Debug\UnitTestPadrao.csproj.CoreCompileInputs.cache
