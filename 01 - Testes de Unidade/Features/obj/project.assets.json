@@ -6,7 +6,9 @@
   "libraries": {},
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "fluentvalidation >= 8.4.0",
+      "mediatr >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -15,11 +17,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj",
-      "projectName": "Demo",
-      "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj",
+      "projectName": "Features",
+      "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj",
       "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\obj\\",
+      "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +54,14 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "fluentvalidation": {
+            "target": "Package",
+            "version": "[8.4.0, )"
+          },
+          "mediatr": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           }
         },
         "imports": [
@@ -69,6 +79,24 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote mediatr. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "mediatr",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote fluentvalidation. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "fluentvalidation",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
     {
       "code": "NU1102",
       "level": "Error",

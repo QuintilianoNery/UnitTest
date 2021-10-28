@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj": {}
+    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj": {
+    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj",
-        "projectName": "Demo",
-        "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj",
+        "projectName": "Features",
+        "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj",
         "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\obj\\",
+        "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,14 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "fluentvalidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "mediatr": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

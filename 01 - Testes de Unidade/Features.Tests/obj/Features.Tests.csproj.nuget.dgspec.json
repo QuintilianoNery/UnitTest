@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj": {}
+    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj": {
+    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj",
-        "projectName": "Demo.Tests",
-        "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj",
+        "projectName": "Features.Tests",
+        "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj",
         "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\obj\\",
+        "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj": {
-                "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj"
+              "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj": {
+                "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj"
               }
             }
           }
@@ -43,6 +43,22 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[28.0.3, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            },
+            "MOQ": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "MOQ.automock": {
+              "target": "Package",
+              "version": "[1.2.0.120, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.0.1, )"
@@ -56,6 +72,12 @@
             "xunit": {
               "target": "Package",
               "version": "[2.4.0, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
@@ -76,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj": {
+    "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj",
-        "projectName": "Demo",
-        "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj",
+        "projectName": "Features",
+        "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj",
         "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\obj\\",
+        "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,6 +138,14 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "fluentvalidation": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "mediatr": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

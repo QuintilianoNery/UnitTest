@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fjPJ2zXvNB7qxgV4ZyCxrpLAiVT28Sq+flOjDZdui4nDh3UzY4LTkqUn9EYa6BNtgM1bemhecmxCkCUsaSyDjg==",
+  "dgSpecHash": "PAW5ZMvH1tgtZCeF4/RR09ifEjI6xyv6evODhRReZRt1KmFg9EaA+0sSeBiJUWMOUi0DZig1wRXHl2S2JoK05w==",
   "success": false,
-  "projectFilePath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj",
+  "projectFilePath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
     "C:\\Users\\quint\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -52,8 +52,26 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Demo.Tests depende de Microsoft.NET.Test.Sdk (>= 16.0.1), mas Microsoft.NET.Test.Sdk 16.0.1 não foi encontrado. A melhor correspondência aproximada de Microsoft.NET.Test.Sdk 16.9.4 foi resolvida.",
+      "message": "Features.Tests depende de Microsoft.NET.Test.Sdk (>= 16.0.1), mas Microsoft.NET.Test.Sdk 16.0.1 não foi encontrado. A melhor correspondência aproximada de Microsoft.NET.Test.Sdk 16.9.4 foi resolvida.",
       "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote xunit.runner.console. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "xunit.runner.console",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote FluentAssertions. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "FluentAssertions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.2"
       ]
@@ -70,8 +88,53 @@
     {
       "code": "NU1101",
       "level": "Error",
+      "message": "Não é possível encontrar o pacote MOQ.automock. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "MOQ.automock",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
       "message": "Não é possível encontrar o pacote xunit.runner.visualstudio. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
       "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote MOQ. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "MOQ",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Bogus. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Bogus",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote mediatr. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "mediatr",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote fluentvalidation. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "fluentvalidation",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.2"
       ]

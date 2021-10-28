@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "mJAugymXW8TIFA5kRHMB3+IhqljpshR832bMiAio9h1j7YTWmnYsTxaxkMXI0b+YAzxSD/VaiRoI3oSpeAWPVw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote mediatr. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "mediatr",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote fluentvalidation. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "fluentvalidation",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.NETCore.App com a versão (>= 2.2.0)\r\n  - Encontradas 1 versões em Microsoft Visual Studio Offline Packages [Versão mais próxima: 2.0.0]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
+}

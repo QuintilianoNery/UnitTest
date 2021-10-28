@@ -841,14 +841,18 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Demo/1.0.0": {
+      "Features/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "fluentvalidation": "8.4.0",
+          "mediatr": "7.0.0"
+        },
         "compile": {
-          "bin/placeholder/Demo.dll": {}
+          "bin/placeholder/Features.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Demo.dll": {}
+          "bin/placeholder/Features.dll": {}
         }
       }
     }
@@ -3527,18 +3531,23 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Demo/1.0.0": {
+    "Features/1.0.0": {
       "type": "project",
-      "path": "../Demo/Demo.csproj",
-      "msbuildProject": "../Demo/Demo.csproj"
+      "path": "../Features/Features.csproj",
+      "msbuildProject": "../Features/Features.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Demo >= 1.0.0",
+      "Bogus >= 28.0.3",
+      "Features >= 1.0.0",
+      "FluentAssertions >= 5.9.0",
+      "MOQ >= 4.13.0",
+      "MOQ.automock >= 1.2.0.120",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.0",
+      "xunit.runner.console >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
   },
@@ -3548,11 +3557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj",
-      "projectName": "Demo.Tests",
-      "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj",
+      "projectName": "Features.Tests",
+      "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj",
       "packagesPath": "C:\\Users\\quint\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo.Tests\\obj\\",
+      "outputPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quint\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3568,8 +3577,8 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj": {
-              "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Demo\\Demo.csproj"
+            "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj": {
+              "projectPath": "C:\\Users\\quint\\OneDrive\\Documentos\\Repositorios\\UnitTest\\01 - Testes de Unidade\\Features\\Features.csproj"
             }
           }
         }
@@ -3584,6 +3593,22 @@
       "netcoreapp2.2": {
         "targetAlias": "netcoreapp2.2",
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[28.0.3, )"
+          },
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[5.9.0, )"
+          },
+          "MOQ": {
+            "target": "Package",
+            "version": "[4.13.0, )"
+          },
+          "MOQ.automock": {
+            "target": "Package",
+            "version": "[1.2.0.120, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.0.1, )"
@@ -3597,6 +3622,12 @@
           "xunit": {
             "target": "Package",
             "version": "[2.4.0, )"
+          },
+          "xunit.runner.console": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.1, )"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
@@ -3622,8 +3653,26 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Demo.Tests depende de Microsoft.NET.Test.Sdk (>= 16.0.1), mas Microsoft.NET.Test.Sdk 16.0.1 não foi encontrado. A melhor correspondência aproximada de Microsoft.NET.Test.Sdk 16.9.4 foi resolvida.",
+      "message": "Features.Tests depende de Microsoft.NET.Test.Sdk (>= 16.0.1), mas Microsoft.NET.Test.Sdk 16.0.1 não foi encontrado. A melhor correspondência aproximada de Microsoft.NET.Test.Sdk 16.9.4 foi resolvida.",
       "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote xunit.runner.console. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "xunit.runner.console",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote FluentAssertions. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "FluentAssertions",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.2"
       ]
@@ -3640,8 +3689,53 @@
     {
       "code": "NU1101",
       "level": "Error",
+      "message": "Não é possível encontrar o pacote MOQ.automock. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "MOQ.automock",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
       "message": "Não é possível encontrar o pacote xunit.runner.visualstudio. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
       "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote MOQ. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "MOQ",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Bogus. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Bogus",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote mediatr. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "mediatr",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote fluentvalidation. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "fluentvalidation",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.2"
       ]
