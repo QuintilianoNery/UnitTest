@@ -1,6 +1,0 @@
-C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\projeto.Shared.Test\bin\Debug\projeto.Shared.Test.dll
-C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\projeto.Shared.Test\bin\Debug\projeto.Shared.Test.pdb
-C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\projeto.Shared.Test\obj\Debug\projeto.Shared.Test.csprojAssemblyReference.cache
-C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\projeto.Shared.Test\obj\Debug\projeto.Shared.Test.csproj.CoreCompileInputs.cache
-C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\projeto.Shared.Test\obj\Debug\projeto.Shared.Test.dll
-C:\Users\Backup\Documentos\Meus repositorios\projeto.Shared.Test\projeto.Shared.Test\obj\Debug\projeto.Shared.Test.pdb

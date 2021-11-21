@@ -1,0 +1,9 @@
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\bin\Debug\netcoreapp2.2\Features.deps.json
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\bin\Debug\netcoreapp2.2\Features.dll
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\bin\Debug\netcoreapp2.2\Features.pdb
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\obj\Debug\netcoreapp2.2\Features.csproj.AssemblyReference.cache
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\obj\Debug\netcoreapp2.2\Features.AssemblyInfoInputs.cache
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\obj\Debug\netcoreapp2.2\Features.AssemblyInfo.cs
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\obj\Debug\netcoreapp2.2\Features.csproj.CoreCompileInputs.cache
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\obj\Debug\netcoreapp2.2\Features.dll
+c:\Users\qpnery\Repositorios\Pessoal\UnitTest\01 - Testes de Unidade\Features\obj\Debug\netcoreapp2.2\Features.pdb
